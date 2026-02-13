@@ -7,6 +7,6 @@ $stdin.set_encoding('UTF-8')
 # $stdout.write($stdin.read) 最も簡単なCOPY
 
 while (c = $stdin.getc) != nil
-   print c
+   print c.upcase
 end
     
